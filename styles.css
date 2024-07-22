@@ -17,14 +17,13 @@
       padding: 0px;
       overflow-x: transparent;
       overflow-y: transparent;
-    }
     
-  
+    }
+
   nav {
-    position: absolute;
+    position: fixed;
     top: 0px;
     margin: 0 auto;
-    margin-left: -200px;
     text-align: center;
     align-items: center;
     display: inline-block !important;
@@ -198,11 +197,12 @@
     .nav-links {
       margin: 0 auto;
       list-style-type: none;
+      text-align: center;
      
     }
     
     .nav-space {
-        margin-right: 24px;;
+        margin-right: 24px;
       }
     
     #nav-links, a, li {
