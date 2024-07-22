@@ -1,0 +1,268 @@
+* {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+* p {
+    font-size: 1.5rem;
+  }
+  
+  body {
+      background: linear-gradient(white, #f0abc1);
+      align-items: center;
+      padding: 0px;
+      overflow-x: transparent;
+      overflow-y: transparent;
+    }
+    
+  
+  nav {
+    position: absolute;
+    top: 0px;
+    margin: 0 auto;
+    margin-left: -200px;
+    text-align: center;
+    align-items: center;
+    display: inline-block !important;
+    list-style-type: none;
+  
+  }
+  
+    header {
+      
+      background-color: white;
+      margin: 0px;
+      width: 100vw;
+      height: 100px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      
+    }
+    header img ul li a {
+      position: fixed;
+      display:inline-block;
+      
+    }
+    header img {
+      padding-top: 25px;
+    }
+    hr {
+      background-color: pink;
+      height: 10px;
+      opacity: 70%;
+      z-index: -1;
+      border-radius: 50%;
+    }
+  
+    footer {
+        text-align: center;
+        background: #f0abc1;
+        border-radius: 1px;
+        margin-top: 5px;
+        height: 25px;
+        width: 100%;
+
+      }
+    
+      footer a {
+        color: black;
+    
+      }
+    
+      footer a:hover {
+        color: pink;
+      }
+    
+      footer a:click {
+        color: white;
+      }
+    
+    #all-nav-features {
+      text-align: center;
+      margin: 0 auto;
+      font-family: Arial;
+      font-size: 18px;
+      display: inline-block;
+    }
+  
+    #rrlogo {
+      padding-left:40px;
+    }
+  
+    #welcome-section {
+      padding-top: 300px !important;
+      color: #000000;
+      font-weight: bold;
+      font-family: Arial;
+      font-size: 20px;
+      margin: 0 auto;
+    }
+  
+    #about {
+      padding-top: 120px;
+      padding-left: 100px;
+      padding-right: 100px;
+      margin-top: 250px;
+      margin-bottom: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white;
+      font-size: 20px;
+      width: 600px;
+      height: 500px;
+      position: center;
+      text-align: center;
+      border-radius: 25px;
+      
+    }
+  
+    #projects {
+      width: 1250px;
+    margin-bottom: 240px;
+      margin: 100px auto;
+      position: center !important;
+      text-align: center !important;
+      background-color: white;
+      border-radius: 25px;
+      align-items: center;
+    }
+  
+    #profile-link {
+  
+    }
+    #connect {
+       width: 1250px;
+       padding-top: 120px !important;
+       padding-bottom: 120px !important;
+    margin: 0 auto;
+      position: center !important;
+      text-align: center !important;
+      background-color: white;
+      border-radius: 25px;
+    }
+  
+    #connect h1 {
+      margin-bottom: 120px;
+    }
+    
+    #connect p {
+      padding: 75px;
+      text-align: justify;
+  
+    }
+    
+    #social-media-links img {
+      width: 100px;
+      height: 100px;
+      position: center;
+      
+    }
+  
+    #watch {
+      background-color: #ffffff;
+      width: 1250px;
+      padding-top: 120px;
+      padding-bottom: 120px;
+     position: center !important;
+      text-align: center !important;
+      background-color: white;
+      border-radius: 25px;
+      margin: 0 auto;
+    }
+  
+    #livefeed {
+      padding-bottom: 50px;
+    }
+  
+    
+    
+    .insta-feed {
+      padding-left: 75px;
+      margin-left: 300px;
+      margin-right: auto;
+      margin-top: 100px;
+      width: 750px;
+      position: center !important;
+    }
+    
+  
+    .social-media-group {
+      position: center;
+    }
+  
+    
+    .nav-links {
+      margin: 0 auto;
+      list-style-type: none;
+     
+    }
+    
+    .nav-space {
+        margin-right: 24px;;
+      }
+    
+    #nav-links, a, li {
+      text-decoration: none;
+      list-style: none;
+      font-weight: bold;
+      display: inline-block;
+     
+    }
+    
+    
+    #welcome-section {
+      color: #143c3c;
+      text-align: center;
+       margin: 50px;
+       padding-top: 100px; 
+       padding-right: 200px;
+       padding-bottom: 100px;
+       padding-left: 200px;
+    }
+    
+    #features {
+       margin: 0 25px;
+       padding: 15px;
+    
+    }
+    
+    #features img {
+      align-items: left;
+    }
+    
+    #features h2 {
+      text-align: left;
+      margin: -80px 0 15px 90;
+    }
+    
+    #features p {
+      margin: -5px 0 15px 90
+    }
+    
+    #how-it-works h1 {
+      text-align: center;
+    }
+    #pricing { 
+      align-items: center;
+      margin: auto 0;
+      display: block;
+      text-align: center;
+    }
+  
+    #pricing fieldset {
+      margin: 25px;
+      display: inline-block;
+      width: 250px;
+      height: 500px;
+    }
+    @media only screen and (max-width: 300px) {
+    body {
+      background-color: lightblue;
+    }
+  }
